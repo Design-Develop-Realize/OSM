@@ -1,0 +1,2206 @@
+----------------------------------------
+Timestamp: 1/13/2015 8:55:39 PM
+
+Message: HandlingInstanceID: 524b315b-f8bc-4dfe-ba03-0b7c5729d280
+An exception of type 'System.Runtime.InteropServices.COMException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/13/2015 20:55:39
+Type : System.Runtime.InteropServices.COMException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The I/O operation has been aborted because of either a thread exit or an application request. (Exception from HRESULT: 0x800703E3)
+Source : 
+Help link : 
+ErrorCode : -2147023901
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147023901
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/13/2015 8:55:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/base-images/entrance-2207661318-o.jpg?sfvrsn=2
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5920
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2015 9:00:21 PM
+
+Message: HandlingInstanceID: dd8fc3a8-6670-4dbf-864e-c91a34004094
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/13/2015 21:00:21
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The remote host closed the connection. The error code is 0x80070016.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147024874
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RaiseCommunicationError(Int32, Boolean)
+HResult : -2147024874
+Stack Trace :    at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.<>c__DisplayClass9.<WriteToOutput>b__7()
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.IgnoringClosedConnection(Action action)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.WriteToOutput(HttpResponse response, Stream stream, Int32 bufferSize)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SetResponseOrCacheData(HttpRequest request, MediaContent content, LibrariesManager manager, HttpResponse response, OutputItem outputItem)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SendResponse(HttpRequest request, HttpResponse response, MediaContent content, LibrariesManager manager)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/13/2015 9:00:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/default-album/osm_weddingpage_content.png?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9036
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 13/01/2015 22:02:59
+
+Message: HandlingInstanceID: 9067b6eb-3174-4314-b544-92be2a3a718a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/13/2015 22:02:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 13/01/2015 22:02:59
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/WebResource.axd?d=a1bbtPlsNtlvuaBGCsRYOYuQGwdgEQ_YgLo44sBYx3BOobUCk0gDo61sLt2Pl5rd4-yLfi6otQrv4YOg_eyccv7J7Qo6_X14GzmM1p0aNOs1&t=635418570520000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 13/01/2015 22:03:00
+
+Message: HandlingInstanceID: 2de5bb67-7733-4e11-b27f-7dc39dd3e217
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/13/2015 22:03:00
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 13/01/2015 22:03:00
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=p18wSzNwU7Jqv7tCDsGM3I_J4S-MSub85sMLzD_yt-vX2Y6hs7xDuYs7cbsXamobdTtp3H2bkhpvEj2E-h9KheHhq6KG_rUsOX2FHXtl-1yVy5MPGuyWGF_Y_F-xqqzViMGytP-kpXA7Hq1L_35AjQ_aMKkYcs-LsqMveJZXnCh8BXDNei8QV_2GCaYBczwg6AlevyncAfZM5ayPKI-iKQ2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7776
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 13/01/2015 22:03:01
+
+Message: HandlingInstanceID: 6b4470b6-5ba6-4a27-9b9d-4479466cc7d0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/13/2015 22:03:01
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 13/01/2015 22:03:01
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=VWmFN8fax10dJiE2cU5XKFEqAFm3Cmka98fPo7PKgWCJ1eflHYvjVQAZ4C2PizSyWvrRCpVC1pryP6Xn6mPxXE3qxMG6X2PKwhdvcc7zSuIS_Q_KzM5uaZOYDdBxI4MpbLQC7sPcCif_5tbOjWbi1WM-Jo14WIFRRLSpNXUzbM_y5jeDB_IvdZE6LV-Ondcx0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1444
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2015 11:15:48 PM
+
+Message: HandlingInstanceID: d8d7b8cb-035c-4be5-b8b8-feda9e1866c4
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/13/2015 23:15:48
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/13/2015 11:15:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/WebResource.axd?d=bRY8qJwVUdlRCIeNlrFkO90urPyPvTW4i9NiQadDrkya2qhFSZp0rAJkJm_9a3K7wdZ7teYAzAE7l3rThfZE7yIquxlRNfp6A4Fj5wdxR8U1&t=635418570520000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7324
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/13/2015 11:15:51 PM
+
+Message: HandlingInstanceID: 9095cf04-997b-4b4b-9085-a28a1f9e0ef3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/13/2015 23:15:51
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/13/2015 11:15:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=p3mqqbg0PYMkTK00M9BDsuxb3F9pRyWG0hvtoLUHB3yeRZMYLQHYmsla1iHzyQBXoLg8zTj6fQ1KFZFFjTl9-atec_zBiC9daeDEop8jJ8emQxg9nKGYGH3GaXEwIuXUssyu8i9uDmuLoP9GQR1Eaf2puXK-dd9AEBXqjiHAYUOVPEvaNPko2m8RIhdPwn5m0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2532
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 12:13:02 AM
+
+Message: HandlingInstanceID: 93c72eb6-7f7f-471d-b65d-cbdb15ea00c3
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 00:13:02
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The remote host closed the connection. The error code is 0x80070057.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147024809
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RaiseCommunicationError(Int32, Boolean)
+HResult : -2147024809
+Stack Trace :    at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.<>c__DisplayClassd.<SendCachedResponse>b__b()
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.IgnoringClosedConnection(Action action)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SendCachedResponse(HttpRequest request, HttpResponse response, OutputItem item)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 12:13:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/base-images/15minblock.jpg?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6668
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 12:13:02 AM
+
+Message: HandlingInstanceID: 7b30b0a2-1f62-4eed-b98a-fd80a2fc1878
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 00:13:02
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The remote host closed the connection. The error code is 0x80070016.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147024874
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RaiseCommunicationError(Int32, Boolean)
+HResult : -2147024874
+Stack Trace :    at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.<>c__DisplayClassd.<SendCachedResponse>b__b()
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.IgnoringClosedConnection(Action action)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SendCachedResponse(HttpRequest request, HttpResponse response, OutputItem item)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 12:13:02 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/base-images/facebook-icon-sm.png?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6668
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 00:37:58
+
+Message: HandlingInstanceID: e68cbc31-cc28-45c7-8530-6652a9a9465d
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 00:37:58
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 00:37:58
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=kdPh4D4Mmy-vmrtuciJewrkuXym3PiUYjoTjVoLLnNtmt0W1KUsb6McceQrYOiLfYoKPMKugbUbJlEBftOv54u5j7O8DfQNGC6-cfv68CtLePUcHf5Y_EIuKInJHWhKqxqtLfE3-kuEB-ua4S7_1wJF9217ZZvSkoRXblDOh-s79x2FaqnattafzQORfa1O0G-do9mf2qWeyvJlORSRTQw2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 00:38:03
+
+Message: HandlingInstanceID: b8dfc7b8-5983-451a-bc9a-17465ac86133
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 00:38:03
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 00:38:03
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=llEy-KCpZomtsFFS7oBdbiMKbHCy8wE_7NOBUDrIe5DTk_vb1k8tzcfKCd8jP1wVcnrq-D5kUJUOG4sc-BbX0epOIO10Rgbla-xugs9Ul1kwKBXEJRon_l5CpJwOBBs9B2HMfMYusmbpaWnQ00A0zy7oG7Pf19zlkqtLPPZrZPiVss71FqVu_Y3YumX8_aQf0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9312
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 2:26:34 AM
+
+Message: HandlingInstanceID: 1da66ce8-35d7-4af2-bbf1-f2f1eca9e26e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 02:26:34
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The remote host closed the connection. The error code is 0x80070016.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147024874
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RaiseCommunicationError(Int32, Boolean)
+HResult : -2147024874
+Stack Trace :    at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.<>c__DisplayClass9.<WriteToOutput>b__7()
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.IgnoringClosedConnection(Action action)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.WriteToOutput(HttpResponse response, Stream stream, Int32 bufferSize)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SetResponseOrCacheData(HttpRequest request, MediaContent content, LibrariesManager manager, HttpResponse response, OutputItem outputItem)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SendResponse(HttpRequest request, HttpResponse response, MediaContent content, LibrariesManager manager)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 2:26:34 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/default-album/osm_weddingpage_content.png?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6752
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 3:32:16 AM
+
+Message: HandlingInstanceID: 3975fafa-845e-45f7-9456-153fcd03949f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 03:32:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Page not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void handler_PreRenderComplete(System.Object, System.EventArgs)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.PageRouteHandler.handler_PreRenderComplete(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 3:32:16 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/topbar/events/port-wine-chocolate/music-entertainment
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9888
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 3:54:41 AM
+
+Message: HandlingInstanceID: f3542f0c-21cf-4f03-965b-0a7490d92794
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 03:54:41
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 3:54:41 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/WebResource.axd?d=FSQOsDuJdXIjjtK252E_Z1AgK1Zpih1bmFakTZ1dcRj_hTezp8JM5MtKKX6OZzvqhoLvhv1d_14sb-u8gUJg3xId9oXPrUm0GpGNNfZqTy41&t=635418570520000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4540
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 3:54:50 AM
+
+Message: HandlingInstanceID: d64e740b-afde-4985-b900-9c831e44a86b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 03:54:50
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 3:54:50 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=-pcMFfdkEq2DeR615Snmy6WKf-coVETAjtL3bVee_9yoKfo298DNuLbD5UdRxuFKb7cQG3n9s8auyVJXDfUBGqM-LPK9gevGJLX3J-wGhoFJHEtVrIdU_m9864yeNJX9vyKF0tPOjsu_gK7EZG8YmWQTTt8MqWdWe9eRqDGQuYRzprAktHZFzsfNs5oDeJf7xBHRdU89LwqXTAI6C5c2ow2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7836
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 5:45:11 AM
+
+Message: HandlingInstanceID: 67cf1d50-e0d0-4c9c-a39d-8175eb44f62e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 05:45:11
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The remote host closed the connection. The error code is 0x80070016.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147024874
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RaiseCommunicationError(Int32, Boolean)
+HResult : -2147024874
+Stack Trace :    at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.<>c__DisplayClass9.<WriteToOutput>b__7()
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.IgnoringClosedConnection(Action action)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.WriteToOutput(HttpResponse response, Stream stream, Int32 bufferSize)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SetResponseOrCacheData(HttpRequest request, MediaContent content, LibrariesManager manager, HttpResponse response, OutputItem outputItem)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SendResponse(HttpRequest request, HttpResponse response, MediaContent content, LibrariesManager manager)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 5:45:11 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/default-album/osm_weddingpage_content.png?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9512
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 5:57:31 AM
+
+Message: HandlingInstanceID: 16d405b2-37ba-4322-bab8-ca62439b16f7
+An exception of type 'System.Runtime.InteropServices.COMException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/14/2015 05:57:31
+Type : System.Runtime.InteropServices.COMException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The I/O operation has been aborted because of either a thread exit or an application request. (Exception from HRESULT: 0x800703E3)
+Source : 
+Help link : 
+ErrorCode : -2147023901
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147023901
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 5:57:31 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/default-album/osm_port_chocolate_2015.jpg?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5356
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 7:02:19 AM
+
+Message: HandlingInstanceID: 67b0067a-ab6c-4feb-abf5-f05d6969435f
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 07:02:19
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 7:02:19 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656388481093750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/default-source/default-album/osm_port_chocolate_2015.jpg?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656388481093750
+
+ProcessId: 1496
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8100
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 09:00:04
+
+Message: HandlingInstanceID: b301961c-6ff8-4a9b-b96c-03a196cb427b
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 09:00:04
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 09:00:04
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656976005312500
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=B5mf-TfP91JPk4L0SlXdWl1LfBQ9Kxj45c9Kz1IIRT_QnGF4JTMGeIPESM1VntkDyzDFmSyFTzX5gETHy5DKQDpnDM_nxSV01ZdRO3u5xvFtXRS6TtufhaB6Cn4YOvzqBwLqGTufI06k2fe6nxGXon_ojmBLdE5HjLQecqjwyn0z0-tqD2YVjv1h-OzXKzFG0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656976005312500
+
+ProcessId: 5156
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7708
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 09:00:04
+
+Message: HandlingInstanceID: 55ed8c4d-bfd1-4b8d-8378-c87901b86a11
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 09:00:04
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 09:00:04
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656976005312500
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=B5mf-TfP91JPk4L0SlXdWl1LfBQ9Kxj45c9Kz1IIRT_QnGF4JTMGeIPESM1VntkDyzDFmSyFTzX5gETHy5DKQDpnDM_nxSV01ZdRO3u5xvFtXRS6TtufhaB6Cn4YOvzqBwLqGTufI06k2fe6nxGXon_ojmBLdE5HjLQecqjwyn0z0-tqD2YVjv1h-OzXKzFG0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656976005312500
+
+ProcessId: 5156
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5388
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 9:09:24 AM
+
+Message: HandlingInstanceID: 9ec8475e-5736-46d7-89a9-f592961c7059
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 09:09:24
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : File not found.
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : IOutputItem GetOutputItem(System.Web.HttpRequest, System.Web.HttpResponse, Telerik.Microsoft.Practices.EnterpriseLibrary.Caching.ICacheManager, System.String, Telerik.Sitefinity.Libraries.Model.MediaContent ByRef)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.GetOutputItem(HttpRequest request, HttpResponse response, ICacheManager cache, String key, MediaContent& content)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 9:09:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130656976005312500
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/images/retail_strap.jpg
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130656976005312500
+
+ProcessId: 5156
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4416
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 9:29:57 AM
+
+Message: HandlingInstanceID: 8cf2aba1-d9ab-4b75-9194-b2997eb5b110
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 09:29:57
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Item has already been added. Key in dictionary: 'Telerik.Web.SkinsAssembly'  Key being added: 'Telerik.Web.SkinsAssembly'
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Insert(System.Object, System.Object, Boolean)
+HResult : -2147024809
+Stack Trace :    at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at System.Collections.Specialized.NameObjectCollectionBase.BaseAdd(String name, Object value)
+   at System.Collections.Specialized.NameObjectCollectionBase.BaseSet(String name, Object value)
+   at System.Collections.Specialized.NameValueCollection.Set(String name, String value)
+   at Telerik.Web.SkinRegistrar.GetDefaultSkinsAssemblyName()
+   at Telerik.Web.SkinRegistrar.GetAllEmbeddedSkinAttributes(RadSkinManager skinManager, Type controlType)
+   at Telerik.Web.SkinRegistrar.GetAllEmbeddedSkinAttributes(Type controlType, Page page, Boolean designTime)
+   at Telerik.Web.UI.Common.BaseClass.GetShortControlName(Control control)
+   at Telerik.Web.UI.Common.BaseClass.GetValueFromConfig(String keyFormat, Control control)
+   at Telerik.Web.UI.Common.BaseClass.GetGlobalEnableEmbeddedSkins(Control control)
+   at Telerik.Web.UI.RadDataBoundControl.get_EnableEmbeddedSkins()
+   at Telerik.Web.UI.RadDataBoundControl.Telerik.Web.ISkinnableControl.get_EnableEmbeddedSkins()
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType, Boolean designTime)
+   at Telerik.Web.UI.RadStyleSheetManager.RegisterSkinnableControl(ISkinnableControl control)
+   at Telerik.Web.UI.RadDataBoundControl.RegisterCssReferences()
+   at Telerik.Web.UI.RadDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadDataBoundControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 9:29:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657013822031250
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657013822031250
+
+ProcessId: 3260
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5736
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 9:49:12 AM
+
+Message: HandlingInstanceID: 8ad0b228-d2f8-4ba2-b163-178024137d1a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 09:49:12
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The remote host closed the connection. The error code is 0x80070057.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147024809
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RaiseCommunicationError(Int32, Boolean)
+HResult : -2147024809
+Stack Trace :    at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.<>c__DisplayClassd.<SendCachedResponse>b__b()
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.IgnoringClosedConnection(Action action)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.SendCachedResponse(HttpRequest request, HttpResponse response, OutputItem item)
+   at Telerik.Sitefinity.Modules.Libraries.Web.LibraryHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 9:49:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657025398125000
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/images/default-source/default-album/barrels1.jpg?sfvrsn=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657025398125000
+
+ProcessId: 4016
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8560
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 10:03:16
+
+Message: HandlingInstanceID: 92c815a3-06c9-4a1a-8108-d6854803a3e7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 10:03:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 10:03:16
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657025398125000
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/WebResource.axd?d=Malkwd95klFUXQAI4rI8vEgI2TWjlFtRpga_QcPHHKC8k7Tk0JWSinQD60vtTINBOTawMuWYL8odq-HqHkplpQek7JwtTaDcDGSqg5KoYxHZDfABJT9WGVpmylt5S18rFFjuRL4BYGao9zTcLd_XhnYpo0anBrhctJytkZE1KJzMY5Vqd5Pph-32SSVD6W-o0&t=634901614949834375
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657025398125000
+
+ProcessId: 4016
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9548
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 10:43:29
+
+Message: HandlingInstanceID: 4fb9a6fb-a0c5-4025-b1e6-f7cb7e258d0c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 10:43:29
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 10:43:29
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657045635468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=KLrxL-sKN6tLxJxcNwn5mOPauHxHV5VlAqaDm9WP58-rgRMiQx0f1gB-rBexMbUXfwyvmbrJGuD9dw2p-EXOwXCjR2R3AcglqEI97oK4eK38PX4PPmxx9CjLv8tHXx3eJe_g1reO1ytXOvyuJUfLQFgbl0ARMkCV2ozvLvYeF7KNqfoTGp4fW8qqnGVevWmW0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657045635468750
+
+ProcessId: 4832
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2804
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 10:43:30
+
+Message: HandlingInstanceID: 023850dd-536b-4db0-9728-ba038d50cea9
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 10:43:30
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 10:43:30
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657045635468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=pHxm-bZrZnhxnweBIuON4jJJO5q64ZJCMn9s8plj1xvFW6NqdxVsyeFTq7npltibC7C-ytvsWgW4f6wTmbgKekUxjRN0qOZmg08_fw7KlrbFeCB2abyrnVPIaM0pB43ZZbVspzM-DkWvPuo5rxu1biU56x8KMiokq4L29yPi1IBytsC4xEAfSEJLpbGRu8DJqSm3v4EpdCCrjjBTS7hgjg2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657045635468750
+
+ProcessId: 4832
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 10:43:30
+
+Message: HandlingInstanceID: 99356c26-be33-4415-8079-ff7464e5f00c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 10:43:30
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 10:43:30
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657045635468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=KLrxL-sKN6tLxJxcNwn5mOPauHxHV5VlAqaDm9WP58-rgRMiQx0f1gB-rBexMbUXfwyvmbrJGuD9dw2p-EXOwXCjR2R3AcglqEI97oK4eK38PX4PPmxx9CjLv8tHXx3eJe_g1reO1ytXOvyuJUfLQFgbl0ARMkCV2ozvLvYeF7KNqfoTGp4fW8qqnGVevWmW0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657045635468750
+
+ProcessId: 4832
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8408
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 10:43:30
+
+Message: HandlingInstanceID: ab91727e-6140-4c45-a87c-6f27e149f6bc
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 10:43:30
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 10:43:30
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657045635468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=pHxm-bZrZnhxnweBIuON4jJJO5q64ZJCMn9s8plj1xvFW6NqdxVsyeFTq7npltibC7C-ytvsWgW4f6wTmbgKekUxjRN0qOZmg08_fw7KlrbFeCB2abyrnVPIaM0pB43ZZbVspzM-DkWvPuo5rxu1biU56x8KMiokq4L29yPi1IBytsC4xEAfSEJLpbGRu8DJqSm3v4EpdCCrjjBTS7hgjg2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657045635468750
+
+ProcessId: 4832
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 11:47:31
+
+Message: HandlingInstanceID: 74e3b116-c712-439a-9d05-3e2be5c3a910
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 11:47:31
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 11:47:31
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657083873437500
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/ScriptResource.axd?d=Dw3G4BcB61V2QR5tBALzGdAdKpak91HSvk_fFLi5EsHMsKIH1scVobIwovJTE4QTNUQU8wEG8I3K0ebr3rvSgStTbbDSCgWV9BHw96-MKajqc_qST4kRtkEQl8JpR6MNYAgxOasq0hrzpTUoq5RWHNgXKt855KXUi_7LFp7juSE6bnnE-6obbuHGLefCLvir0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657083873437500
+
+ProcessId: 8696
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:4748
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 11:47:31
+
+Message: HandlingInstanceID: d7bdda16-c92b-4301-b060-ee7739838bc7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 11:47:31
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 11:47:31
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657083873437500
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/ScriptResource.axd?d=Gotq2Vg5MAITKZzAMa-gNpxMs9AI00w9zQMw29Y2TKD7BUtVAdtWiieDd0_8Y3rIT7NxQMAq33pqtdzlps1jd2gRz-ZN-0tmnOLXuE-RuYK2Fd0bG_9uw1cMPD4pHTI4X7ba5gScxDSuGBDEYh9uU2uRBDmIOja0v1pd5HVFaTB6VgfaLkUBof-viv3_EV7W0nVp2xaOhct8drJUdwkiHQ2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657083873437500
+
+ProcessId: 8696
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 1/14/2015 2:06:51 PM
+
+Message: HandlingInstanceID: e9e3b70d-306f-4887-ab75-0371b8b0e8e7
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 14:06:51
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Page not found
+Source : Telerik.Sitefinity
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void handler_PreRenderComplete(System.Object, System.EventArgs)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Web.PageRouteHandler.handler_PreRenderComplete(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 1/14/2015 2:06:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657172827812500
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/topbar/events/port-wine-chocolate/music-entertainment
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657172827812500
+
+ProcessId: 7528
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9916
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 19:29:42
+
+Message: HandlingInstanceID: 5a31db20-16a3-4cb5-a3c3-4e96f1fe722a
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 19:29:42
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 19:29:42
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=DJTKRiARTrziJtSopRylAqh38h71eoLXsM8pF8Xo-yi9Te5jY0r643SAtR72hRbz6fe9nBgPXLTYhJ-CL5ORmRIT6HMp6DUawSv5HKw3wECdHDD5wTk4h_3iVEXSfW9mznO0o3yQO_zjad_qTPuviNVQKw4q2yaI2tu-E7c_DP3LgtGE3I1UccTcz84iq-Sx0&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7488
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 19:29:42
+
+Message: HandlingInstanceID: 7102ae99-74c7-4813-b18c-a1e4ab0f6f46
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 19:29:42
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 19:29:42
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/WebResource.axd?d=0p1612BsDVON2gxrjm07ltP34ZIiquVDtzwT5tZRPjOdHrFXK3zMZe4-GUGDNTcQX3Rick0yEddV2GZiT_PBp6BebJlPFXFnXnhziFPXL9M1&t=635418570520000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:6436
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 19:29:43
+
+Message: HandlingInstanceID: 68cf1287-7cb5-43f6-96de-a421e0d15924
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 19:29:43
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 19:29:43
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=N_UVCj4QSoL0DkeGalmVccvnoztuw2HHG0zKIML-KFkT3UCikmVtlaQRXVpMUy1nv0ix62eRpadpVspI9CTgrqzZTDuNbp3WcoutVLc_hGsI7D9n-gEu-A5mqfLLAQzTSXLNfRoqEM3BB_UgbtzCibaJ-hVhHn5WnRXRrtnYw29rQTglz-q7R5VH4x7BKp3zV020kTuIDW0KwnWIpo0P6g2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3848
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 20:11:27
+
+Message: HandlingInstanceID: b11c300d-16d9-4c07-b50a-4d567383a90c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 20:11:27
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 20:11:27
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/WebResource.axd?d=ZLYG1P5tG63XBIMTTnt0hRYA6ddHxlJh3fJjPQB0q-N6j8XAKFY_q2p6mBucVkj16cr1BjQG_7sVZXlkc2Z60NEkNg37su_qIQHzN5oQteY1&t=635418570520000000
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8272
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 20:11:28
+
+Message: HandlingInstanceID: 8ca08dc7-240d-4229-adb3-e8fb9c703a25
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 20:11:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 20:11:28
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=kJ09h9-d-LB8d-wJzxy8XZplbgtbPENM1pnood9sgtHB9HuxHGTXXrc0osrJD9EjM-4lqT-rNLpdrPkhz9jttsB29PBOYcXUpiXgGotfppSaY6r2jyaZNhY0OI2U_BpYYFqmS0xfggcLESOhsmSBz_stZHJZS9qDJmDg_Z9GgkO5ifitW-k0OYeKfmooGul1JDqEFqLKWriSxkBo4xhdGA2&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3800
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 20:11:29
+
+Message: HandlingInstanceID: c9062c66-d299-49eb-a43a-f699f50e6767
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/14/2015 20:11:29
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid script resource request.
+Source : System.Web.Extensions
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContextBase, VirtualFileReader, System.Action`2[System.String,System.Exception], Boolean)
+HResult : -2147467259
+Stack Trace :    at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContextBase context, VirtualFileReader fileReader, Action`2 logAction, Boolean validatePath)
+   at System.Web.Handlers.ScriptResourceHandler.ProcessRequest(HttpContext context)
+   at System.Web.Handlers.ScriptResourceHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 20:11:29
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/ScriptResource.axd?d=yfsGow5acLnefWtTJI2ceufIa0bttviW3XfwfgpqIuI5wN33CH-_hJTvlzpj-tUio6UcziXAjyo5UEIVjD-1SxPTMz1dyGTN5uFmZ51BYm5QRdiY06p02XH3sF9e1uCs57Np0_smKifOaLLfqmTFRuuW-M8bZK5ejDQklB7bI0LPliy-3DRWZenwOwyit9-30&t=155533f4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7656
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 14/01/2015 20:35:34
+
+Message: HandlingInstanceID: b469ff26-8237-4570-af50-6e8ee3e01b2b
+An exception of type 'System.Web.HttpRequestValidationException' occurred and was caught.
+-----------------------------------------------------------------------------------------
+01/14/2015 20:35:34
+Type : System.Web.HttpRequestValidationException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : A potentially dangerous Request.Form value was detected from the client (excerpt="...iaaosabgw <a href="http://www....").
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateString(System.String, System.String, System.Web.Util.RequestValidationSource)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at Telerik.Sitefinity.Security.Claims.SitefinityClaimsAuthenticationModule.OnAuthenticateRequest(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 14/01/2015 20:35:34
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-130657198380468750
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://www.oldsugarmill.com/footbar/contact/trackback/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-130657198380468750
+
+ProcessId: 4200
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8324
+
+Extended Properties: 
+----------------------------------------

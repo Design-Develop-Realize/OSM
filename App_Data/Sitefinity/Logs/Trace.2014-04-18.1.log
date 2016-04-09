@@ -1,0 +1,256 @@
+----------------------------------------
+Timestamp: 1/23/2014 9:58:23 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 9:58:34 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 9:59:25 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:00:28 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:00:32 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:00:41 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:12:39 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:12:42 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:13:04 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:13:38 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:13:41 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:13:46 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:13:51 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:13:53 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:14:09 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/23/2014 10:15:26 PM
+
+Message: Analytics Module: System.Net.WebException: Invalid credentials for logging into Google. Please confirm that your saved account information is correct. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   --- End of inner exception stack trace ---
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetToken(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Requesters.AccountRequester.GetAccounts(String username, String password)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetAccountNames(String username, String password)
+
+
+----------------------------------------

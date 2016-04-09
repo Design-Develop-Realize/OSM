@@ -1,0 +1,39 @@
+----------------------------------------
+Timestamp: 12/16/2012 11:24:46 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\AnalyticsConfiguration.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetElementValue(String elementName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.GoogleAnalyticsSettingsRepository.GetUsername()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/16/2012 11:24:47 PM
+
+Message: Analytics Module: System.IO.FileNotFoundException: Could not find file 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\DashboardPermissions.config'.
+File name: 'D:\Users\cPanel\oldsugar\public_html\App_Data\Sitefinity\Configuration\DashboardPermissions.config'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Repositories.XmlPermissionsRepository.GetPermissionsForUser(String userName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Mappers.PermissionsGetter.GetPermissionsForPermissible(String permissibleName)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Mappers.PermissionsGetter.GetPermissionsForCurrentUser()
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Services.StartupChecker.PerformApplicationStartupChecklist(Boolean useBackupFiles)
+
+
+----------------------------------------

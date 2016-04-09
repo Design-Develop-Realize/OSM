@@ -1,0 +1,64 @@
+----------------------------------------
+Timestamp: 11/27/2012 5:53:21 AM
+
+Message: HandlingInstanceID: da80d152-a99f-42b0-a1ba-85ea508cb682
+An exception of type 'System.Security.Cryptography.CryptographicException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/27/2012 05:53:21
+Type : System.Security.Cryptography.CryptographicException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Bad Data.
+
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowCryptographicException(Int32)
+Stack Trace :    at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at Telerik.Sitefinity.Security.SecurityManager.DecryptData(Byte[] data)
+   at Telerik.Sitefinity.Security.Claims.SitefinityCookieTransform.Decode(Byte[] encoded)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ApplyTransforms(Byte[] cookie, Boolean outbound)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(Byte[] token, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule.ReadToken(Byte[] sessionCookie)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/27/2012 5:53:21 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129984691874678125
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/Sitefinity/Services/Pages/ControlPropertyService.svc/batch/8c4a8300-f1a1-47b1-a6d7-5b5d3521c60d/?pageId=51f35683-3be4-44f7-9e2a-2bfbbd3a8101&mediaType=Page&checkLiveVersion=False&upgradePageVersion=False&propertyLocalization=0&isOpenedByBrowseAndEdit=false
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129984691874678125
+
+ProcessId: 13776
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8828
+
+Extended Properties: 
+----------------------------------------

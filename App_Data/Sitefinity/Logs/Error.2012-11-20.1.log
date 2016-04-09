@@ -1,0 +1,630 @@
+----------------------------------------
+Timestamp: 11/7/2012 10:24:11 PM
+
+Message: HandlingInstanceID: 89a2b756-c86d-469d-9b26-2e3cebe76975
+An exception of type 'System.Security.Cryptography.CryptographicException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/07/2012 22:24:11
+Type : System.Security.Cryptography.CryptographicException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Bad Data.
+
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowCryptographicException(Int32)
+Stack Trace :    at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at Telerik.Sitefinity.Security.SecurityManager.DecryptData(Byte[] data)
+   at Telerik.Sitefinity.Security.Claims.SitefinityCookieTransform.Decode(Byte[] encoded)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ApplyTransforms(Byte[] cookie, Boolean outbound)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(Byte[] token, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule.ReadToken(Byte[] sessionCookie)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/7/2012 10:24:11 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968006378038281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/Sitefinity/Administration/Files
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968006378038281
+
+ProcessId: 12240
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:17448
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/7/2012 11:17:26 PM
+
+Message: HandlingInstanceID: 3a3e8f64-ea35-4abd-b9b7-f7e143ede951
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/07/2012 23:17:26
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/7/2012 11:17:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-2-129968033165850781
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=896w92zYh9qKmTADtMqXOpEjNq2wFUgWfbDQI6Nh_kVQ1iz4AX0TraqHM9dnpDfPWNnnYf0K_KM1owZtI34_3aU1FRReEnlJnRY8UV9Ql--qwLYEglpMDbPlQFPNrULxelIB0kJk3mHopoIa-JHnmmmMalXRviXnWbmasARHT0bF0p4gdvumQtNWb-Biibmp0&t=634876653898975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-2-129968033165850781
+
+ProcessId: 16796
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:20700
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/7/2012 11:17:26 PM
+
+Message: HandlingInstanceID: 6b17723b-3722-4218-91f3-9a41664e1a58
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/07/2012 23:17:26
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/7/2012 11:17:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-2-129968033165850781
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=9RaLktQKH9DQ9NKODrsNDA65UDAxCtuxHUFUPh75YkqjQcyB33aJ2GWmpHmxHFxwpVw-fHMEe_dDnN1EIzG-RQKhtKnSBDiFge7z7CEbbASX9LYCWQTtECbp3Sj7SjLtxpAEh89eUvqQVGiQAkBfZMu7TKjjUxNWVYp3iimWsvxmswQk9XaX0X_YkLqjTsv3GxCsU-sJe-YbK67ulC0oDhmgicZG5nBxsxZqc_3JUMQ1&t=634876645923975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-2-129968033165850781
+
+ProcessId: 16796
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:15:55 AM
+
+Message: HandlingInstanceID: dcfa1a3d-3f5a-4104-abbb-c06e14d215b1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/08/2012 00:15:55
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:15:55 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=mP7JQuor6u4E64CxfrKuZ3TcorzHl-jal61m9W3Sm0UzyaJTtTQTiBjZ4MCjxawa4jb2G-ULX8fexHGv-RkQy5GeAUEbWebk0OeGVthZo2yIC-4mbapbqCemvx7-3snzxD_lwQQYm2A-djYkiBSBWd3el3m36oe2bo1MzjEOPKvTS6-P1mYikK5A0c0hDB0JiNBsU9-g7j9aWQ8gNX3h2hvvoYOP1lzzM4TMUmRla6o1&t=634876645923975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:7112
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:17:05 AM
+
+Message: HandlingInstanceID: 74040784-c11b-49f6-81ac-370b62fa8f6b
+An exception of type 'System.ServiceModel.EndpointNotFoundException' occurred and was caught.
+---------------------------------------------------------------------------------------------
+11/08/2012 00:17:04
+Type : System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was no endpoint listening at http://oldsugarmill.swbroadband.co.uk/DefaultWorkflows/PagesApprovalWorkflow.xamlx that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void HandleReturnMessage(System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMessage)
+Stack Trace : 
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Telerik.Sitefinity.ContentWorkflows.IService.SendMessage(String operationName, Boolean isCheckedOut, Guid workflowDefinitionId, Guid contentId, String providerName, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.WorkflowManager.MessageWorkflow(String wokflowUrl, String operationName, WorkflowDefinition workflowDefinition, Guid contentId, String providerName, Boolean isCheckedOut, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.WorkflowManager.MessageWorkflow(Guid itemId, Type itemType, String providerName, String operationName, Boolean isCheckedOut, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.Services.WorkflowService.MessageWorkflowInternal(KeyValuePair`2[] contextBag, String itemId, String itemType, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Workflow.Services.WorkflowService.MessageWorkflow(KeyValuePair`2[] contextBag, String itemId, String itemType, String providerName, String workflowOperation)
+   at SyncInvokeMessageWorkflow(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:17:04 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/Sitefinity/Services/Workflow/WorkflowService.svc/MessageWorkflow/371137a0-42d5-42ae-b254-2b3c01ebc061/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&workflowOperation=Publish
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote name could not be resolved: 'oldsugarmill.swbroadband.co.uk'
+	Source : System
+	Help link : 
+	Status : NameResolutionFailure
+	Response : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+	Stack Trace :    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+	   at System.Net.HttpWebRequest.GetRequestStream()
+	   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9328
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:21:37 AM
+
+Message: HandlingInstanceID: add3f0dc-0cc0-4629-8119-d0a8ad3eb913
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/08/2012 00:21:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:21:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=mVJ8Q1CyVC_pSXbXQ3EpvJBARWBvHt1qdxcPUB7D6z16aB5hyTBjdfw022jc-C9jH4B5xKotUiqObDIEDwE-EAPz6ps7cFcwn_1hTun_9t8CyGVVvm5SYvo7-UZVsuKsZDKH_wTonm0wTYlSV3JweaxxX1mnlL-eceCU-WPp7ALE5w_LOzoozUbRQAjgDS9dJjCRjwYEi4BswrAcxiaEsg2&t=634876645923975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:17232
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:21:37 AM
+
+Message: HandlingInstanceID: 8d2de24b-427a-46e7-b65d-0eb4761f7397
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/08/2012 00:21:37
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:21:37 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=ieOXnybCjqK7KuLoAEmapG4gdnxqHdZzrRfbxzfREIxdG25WLdlrawMV4lnWorElnE_5__o9_dtmhIHDTj-H8-DOmlUjvZ_nRO1EXIt9yrXXEjHF691gtT4_bvJSbI74dnoR2iTW9icZdeCyBYyZRttfmUAcDqP7ESjxrLDpy99AuDFyWKadPoSj7tz8zRvTikiO7tcHpONp_Toh7NZX9Q2&t=634876645923975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:14472
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:27:59 AM
+
+Message: HandlingInstanceID: acad3f65-f3ea-47c7-882a-18674a0a0530
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/08/2012 00:27:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:27:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=mVJ8Q1CyVC_pSXbXQ3EpvJBARWBvHt1qdxcPUB7D6z16aB5hyTBjdfw022jc-C9jH4B5xKotUiqObDIEDwE-EAPz6ps7cFcwn_1hTun_9t8CyGVVvm5SYvo7-UZVsuKsZDKH_wTonm0wTYlSV3JweaxxX1mnlL-eceCU-WPp7ALE5w_LOzoozUbRQAjgDS9dJjCRjwYEi4BswrAcxiaEsg2&t=634876645923975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:16996
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:27:59 AM
+
+Message: HandlingInstanceID: 8ca44899-c76e-41e8-a842-1b8448ddff99
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/08/2012 00:27:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:27:59 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=ieOXnybCjqK7KuLoAEmapG4gdnxqHdZzrRfbxzfREIxdG25WLdlrawMV4lnWorElnE_5__o9_dtmhIHDTj-H8-DOmlUjvZ_nRO1EXIt9yrXXEjHF691gtT4_bvJSbI74dnoR2iTW9icZdeCyBYyZRttfmUAcDqP7ESjxrLDpy99AuDFyWKadPoSj7tz8zRvTikiO7tcHpONp_Toh7NZX9Q2&t=634876645923975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:20900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/8/2012 12:28:08 AM
+
+Message: HandlingInstanceID: c1389ca9-4a45-4d35-a70a-6ec77e6d5233
+An exception of type 'System.ServiceModel.EndpointNotFoundException' occurred and was caught.
+---------------------------------------------------------------------------------------------
+11/08/2012 00:28:08
+Type : System.ServiceModel.EndpointNotFoundException, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : There was no endpoint listening at http://oldsugarmill.swbroadband.co.uk/DefaultWorkflows/PagesApprovalWorkflow.xamlx that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void HandleReturnMessage(System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMessage)
+Stack Trace : 
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Telerik.Sitefinity.ContentWorkflows.IService.SendMessage(String operationName, Boolean isCheckedOut, Guid workflowDefinitionId, Guid contentId, String providerName, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.WorkflowManager.MessageWorkflow(String wokflowUrl, String operationName, WorkflowDefinition workflowDefinition, Guid contentId, String providerName, Boolean isCheckedOut, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.WorkflowManager.MessageWorkflow(Guid itemId, Type itemType, String providerName, String operationName, Boolean isCheckedOut, Dictionary`2 contextBag)
+   at Telerik.Sitefinity.Workflow.Services.WorkflowService.MessageWorkflowInternal(KeyValuePair`2[] contextBag, String itemId, String itemType, String providerName, String workflowOperation)
+   at Telerik.Sitefinity.Workflow.Services.WorkflowService.MessageWorkflow(KeyValuePair`2[] contextBag, String itemId, String itemType, String providerName, String workflowOperation)
+   at SyncInvokeMessageWorkflow(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/8/2012 12:28:08 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129968063206163281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/Sitefinity/Services/Workflow/WorkflowService.svc/MessageWorkflow/371137a0-42d5-42ae-b254-2b3c01ebc061/?itemType=Telerik.Sitefinity.Pages.Model.PageNode&workflowOperation=Publish
+	Inner Exception
+	---------------
+	Type : System.Net.WebException, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The remote name could not be resolved: 'oldsugarmill.swbroadband.co.uk'
+	Source : System
+	Help link : 
+	Status : NameResolutionFailure
+	Response : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+	Stack Trace :    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+	   at System.Net.HttpWebRequest.GetRequestStream()
+	   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129968063206163281
+
+ProcessId: 16288
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:20388
+
+Extended Properties: 
+----------------------------------------

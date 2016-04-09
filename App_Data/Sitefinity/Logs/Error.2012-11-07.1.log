@@ -1,0 +1,480 @@
+----------------------------------------
+Timestamp: 11/4/2012 9:47:14 PM
+
+Message: HandlingInstanceID: 27c94a2b-f30a-4cd3-8a19-5e1b47d765e0
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+11/04/2012 21:47:14
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at Telerik.Sitefinity.Web.UI.Backend.StartupWizard.AdministratorPane.EnsureRole(RoleDataProvider roles, RoleInfo role)
+   at Telerik.Sitefinity.Web.UI.Backend.StartupWizard.AdministratorPane.DoWork()
+   at Telerik.Sitefinity.Web.UI.Backend.StartupWizard.wizard_FinishButtonClick(Object sender, InternalWizardNavigationEventArgs e)
+   at Telerik.Sitefinity.Web.UI.Backend.InternalWizard.OnFinishButtonClick(InternalWizardNavigationEventArgs e)
+   at Telerik.Sitefinity.Web.UI.Backend.InternalWizard.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : AVENGER-4
+TimeStamp : 11/4/2012 9:47:14 PM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 2b2d3d1f-2-129965391282433678
+ThreadIdentity : 
+WindowsIdentity : AVENGER-4\marc
+Requested URL : http://localhost:30636/finity1/Sitefinity/Startup
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Error executing query: Telerik.OpenAccess.RT.sql.SQLException: Table 'finity.sf_roles' doesn't exist
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery()
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery()
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+SQL:
+SELECT COUNT(1) AS  EXPR1                  FROM `sf_roles` a WHERE a.`app_name` = ?                                       AND a.`id` = ?                                        Telerik.OpenAccess.RT.sql.SQLException: Table 'finity.sf_roles' doesn't exist
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery()
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery()
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	InnerExceptions : System.Exception[]
+	FailedObject : 
+	BackendError : Telerik.OpenAccess.RT.sql.SQLException: Table 'finity.sf_roles' doesn't exist
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery()
+   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery()
+   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+	Reason : Runtime
+	CanRetry : False
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Exception Throw()
+	HResult : -2146233088
+	Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+	   at OpenAccessRuntime.storagemanager.logging.LoggingStorageManager.executeQueryAll(ApplicationContext context, ImmutableQueryDetails query, CompiledQuery compiledQuery, QueryParameters parameters, Int32 skip, Int32 take)
+	   at OpenAccessRuntime.DataObjects.UnsynchronizedPMProxy.getAllQueryResults(CompiledQuery cq, QueryParameters parameters, Int32 skip, Int32 take)
+	   at OpenAccessRuntime.DataObjects.OpenAccessQueryImp.executeWithArrayImp(Object[] parameters)
+	   at OpenAccessRuntime.QueryResultImpl.check()
+	   at OpenAccessRuntime.QueryResultImpl.GetEnumerator()
+	   at OpenAccessRuntime.QueryResultImpl.System.Collections.IEnumerable.GetEnumerator()
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQuerySingle[TResult,T](ChainedContext context, Expression expression, QueryableCategory before, Int32& found, Int32 elemAt, Boolean single, Boolean diffType)
+	   at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece)
+
+		Inner Exception
+		---------------
+		Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+		Message : Table 'finity.sf_roles' doesn't exist
+		Source : Telerik.OpenAccess.Runtime
+		Help link : 
+		ErrorCode : 1146
+		Number : 1146
+		ObjectId : 
+		Description : SQLState=;Table 'finity.sf_roles' doesn't exist
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.OpenAccess.RT.sql.ResultSet executeQuery()
+		HResult : -2146233088
+		Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.PreparedStatementImp.executeQuery()
+		   at OpenAccessRuntime.Relational.conn.PooledPreparedStatement.executeQuery()
+		   at OpenAccessRuntime.Relational.fetch.FetchResultImp.Execute()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: AVENGER-4
+
+App Domain: 2b2d3d1f-2-129965391282433678
+
+ProcessId: 1140
+
+Process Name: C:\Users\marc\AppData\Local\Temp\Rar$EX00.437\Sitefinity.exe
+
+Thread Name: 
+
+Win32 ThreadId:5624
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 04/11/2012 22:49:25
+
+Message: HandlingInstanceID: c2dfe0d2-76e3-485b-acbe-9c63105edad2
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+11/04/2012 22:49:25
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 04/11/2012 22:49:25
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129965429433663281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 1130
+	Number : 1130
+	ObjectId : 
+	Description : SQLState=;Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, System.Collections.IDictionary, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129965429433663281
+
+ProcessId: 21432
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 04/11/2012 22:49:26
+
+Message: HandlingInstanceID: 58de80de-ece9-4819-a3dc-b0649d230e78
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+11/04/2012 22:49:26
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_dc818ac816494a3fb1c808bf3d378bd5.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 04/11/2012 22:49:26
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129965429433663281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 1130
+	Number : 1130
+	ObjectId : 
+	Description : SQLState=;Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, System.Collections.IDictionary, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129965429433663281
+
+ProcessId: 21432
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 04/11/2012 22:49:26
+
+Message: HandlingInstanceID: 59edf305-2c3b-4f03-a578-8f81b73d8401
+An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
+--------------------------------------------------------------------------------------
+11/04/2012 22:49:26
+Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+Source : Telerik.OpenAccess.Runtime
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+Reason : Runtime
+CanRetry : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Exception Throw()
+Stack Trace :    at OpenAccessRuntime.ExceptionWrapper.Throw()
+   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
+   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
+   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
+   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 04/11/2012 22:49:26
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129965429433663281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 1130
+	Number : 1130
+	ObjectId : 
+	Description : SQLState=;Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, System.Collections.IDictionary, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129965429433663281
+
+ProcessId: 21432
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 04/11/2012 22:49:27
+
+Message: HandlingInstanceID: 149f689d-ec06-48d1-9851-5bec044c8246
+An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+11/04/2012 22:49:27
+Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+Message : Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+InnerExceptions : System.Exception[]
+FailedObject : 
+BackendError : Telerik.OpenAccess.RT.sql.SQLException: Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Reason : Runtime
+CanRetry : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_dc818ac816494a3fb1c808bf3d378bd5.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 04/11/2012 22:49:27
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129965429433663281
+ThreadIdentity : 
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2012.3.1012.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Source : Telerik.OpenAccess.Runtime
+	Help link : 
+	ErrorCode : 1130
+	Number : 1130
+	ObjectId : 
+	Description : SQLState=;Host 'web03.swbroadband.co.uk' is not allowed to connect to this MySQL server
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, System.Collections.IDictionary, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
+	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, IDictionary driverProps, ConnectionPoolType poolType, LogEventStore pes)
+	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129965429433663281
+
+ProcessId: 21432
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8132
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/5/2012 12:13:33 AM
+
+Message: HandlingInstanceID: 6489fbaf-fe58-4d2b-9a9c-c02da49247cb
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/05/2012 00:13:33
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : This is an invalid webresource request.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)
+Stack Trace :    at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : WEB03
+TimeStamp : 11/5/2012 12:13:33 AM
+FullName : Telerik.Sitefinity.Utilities, Version=5.2.3700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/124/ROOT-1-129965479987569531
+ThreadIdentity : mtowler
+WindowsIdentity : SWBROADBAND\oldsugar
+Requested URL : http://oldsugarmill.swbroadband.co.uk/WebResource.axd?d=s0kF18gK8RkSorS6YiekQ1mZ4LLOztVWfBwyLY4FhQrusA4LJH56bSgchvrbJc3d__LXCa7Fl9HF6ASbbXTNCPkk9JO_XNGlk3xP2o_94Bj116CllPDCSwaWckk-8e8yIFJcJ3eYefFmjxGCwllHe-3xr9V3A413MAocw7IhE5xQmyNGUojpx9sqMbRNGc820&t=634876653898975781
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WEB03
+
+App Domain: /LM/W3SVC/124/ROOT-1-129965479987569531
+
+ProcessId: 12376
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:15396
+
+Extended Properties: 
+----------------------------------------
